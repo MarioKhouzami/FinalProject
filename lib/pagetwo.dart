@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'tours.dart';
-import 'pageone.dart';
-import 'Home.dart';
 class pageTwo extends StatefulWidget {
   const pageTwo({super.key});
 
@@ -27,18 +25,16 @@ class _pageTwoState extends State<pageTwo> {
             SizedBox(height: 30,),
 
 
-            // SizedBox(height: 25,),
-
-            Text("Info: ${tours.toString()}",
+            Text("Info: ${tour.toString()}",
                 style: TextStyle(fontWeight: FontWeight.bold,
                     fontSize: 20,color: Colors.green[700])),
 
 
-            SizedBox(height: 50),
+            SizedBox(height: 30),
 
             TextButton(
                 style: ButtonStyle(
-                    backgroundColor: MaterialStatePropertyAll(Colors.lightGreen),
+                    backgroundColor: MaterialStatePropertyAll(Colors.lime),
                     padding: MaterialStatePropertyAll(EdgeInsets.only(left: 30, right: 30,top: 15,bottom: 15))
                 ),
 
